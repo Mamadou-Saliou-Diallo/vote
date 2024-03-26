@@ -164,6 +164,11 @@ select{
         justify-content: space-between;
         width: 50%;
         flex-wrap: wrap;
+        padding: 10px;
+    }
+    .m-oublie{
+        padding: 20px;
+        text-align: center;
     }
     .fiable{
         width: 100%;
@@ -178,11 +183,23 @@ select{
         border: none;
         cursor: pointer;
     }
+    .envoie{
+        width: 40%;
+        height: 40px;
+        background-color: #009688;
+        border: none;
+        cursor: pointer;
+    }
     .arriere{
         text-decoration: none;
         width: 50%;
         padding: 10px;
         font-size: 30px;
+    }
+    .arriere{
+        text-align: center;
+        margin-top: 5%;
+        font-size: 20px;
     }
     .inscription{
         width: 100%;
