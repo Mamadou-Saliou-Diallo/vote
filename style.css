@@ -1,0 +1,270 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("image/vot.jpeg");
+    background-position: left;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+    height: 100vh;
+}
+.inp{
+    border: none;
+    border-bottom: 2px solid black;
+    width: 30%;
+    height: 40px;
+}
+.probable{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    flex-wrap: wrap;
+}
+.fiable{
+    width: 30%;
+    padding: 2%;
+}
+.bak, .m-oublie{
+    color: #009688;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+.vote{
+    color: #F89617;
+    font-weight: bold;
+    cursor: pointer;
+}
+button{
+    background-color: #009688;
+    color: white;
+    border: none;
+    width: 20%;
+    height: 30px;
+}
+/* mot de pass oublié */
+.envoie{
+    width: 10%;
+    height: 40px;
+    background-color: #009688;
+    border: none;
+    cursor: pointer;
+}
+.arriere{
+    text-decoration: none;
+    font-size: 30px;
+}
+/* inscription */
+.header{
+    display: flex;
+    flex-direction: column;
+}
+.logo-ins{
+    width: 7%;
+    height: 80px;
+}
+.inscription{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("image/vot.jpeg");
+    background-position: left;
+    background-size: 90%;
+    margin-top: -10%;
+}
+.inpt{
+    border: none;
+    border-bottom: 2px solid black;
+    width: 50%;
+    background-color: #009688;
+    color: white;
+    font-weight: bold;
+    height: 40px;
+    font-size: 30px;
+    opacity: 0.7;
+}
+.h3-inscription{
+    font-weight: bold;
+    color: #009688;
+}
+marquee{
+    font-weight: bold;
+    color: #F89617;
+    font-size: 30px;
+}
+label{
+    color: white;
+    font-size: 60px;
+}
+select{
+    font-size: 35px ;
+}
+.sub-arriere{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+.valide{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 20px;
+    width: 30%;
+    height: 40px;
+    justify-content: center;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    background-color: #F89617;
+    cursor: pointer;
+}
+.valide, .revenir:hover{
+    background-color: #F89617;
+    color: #009688;
+    font-size: 30px;
+    width: 50%;
+}
+.revenir{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 20px;
+    width: 30%;
+    justify-content: center;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    background-color: #F89617;
+}
+@media screen and (max-width: 680px) {
+    button{
+        background-color: #009688;
+        color: white;
+        border: none;
+        width: 80%;
+        height: 30px;
+        font-size: 100%;
+    }
+    .inp{
+        border: none;
+        border-bottom: 2px solid black;
+        width: 70%;
+        height: 40px;
+    }
+    .probable{
+        display: flex;
+        justify-content: space-between;
+        width: 50%;
+        flex-wrap: wrap;
+    }
+    .fiable{
+        width: 100%;
+        padding: 2%;
+        text-align: center;
+    }
+    .envoie{
+        width: 30%;
+        font-size: 30px;
+        height: 40px;
+        background-color: #009688;
+        border: none;
+        cursor: pointer;
+    }
+    .arriere{
+        text-decoration: none;
+        width: 50%;
+        padding: 10px;
+        font-size: 30px;
+    }
+    .inscription{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* background-color: #009688; */
+        background-position: bottom;
+        background-size: 100%;
+    }
+    .logo-ins{
+        width: 30%;
+        height: 80px;
+        margin-top: -15%;
+    }
+    .h3-inscription{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        font-size: 100%;
+        font-weight: bold;
+        height: 30px;
+    }
+    .inpt{
+        border: none;
+        border-bottom: 2px solid black;
+        width: 100%;
+        background-color: #009688;
+        color: white;
+        font-weight: bold;
+        height: 40px;
+        font-size: 30px;
+        opacity: 0.7;
+    }
+    select{
+        font-size: 35px ;
+    }
+    label{
+        color: #F89617;
+        font-size: 30px;
+        font-weight: bold;
+
+    }
+    .sub-arriere{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .valide{
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        font-size: 10px;
+        width: 30%;
+        height: 40px;
+        justify-content: center;
+        border-radius: 10px;
+        color: white;
+        font-weight: bold;
+        background-color: #F89617;
+        cursor: pointer;
+    }
+    .valide, .revenir:hover{
+        background-color: #F89617;
+        color: #009688;
+        font-size: 30px;
+        width: 50%;
+    }
+    .revenir{
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        font-size: 15px;
+        width: 40%;
+        justify-content: center;
+        border-radius: 10px;
+        color: white;
+        font-weight: bold;
+        background-color: #F89617;
+    }
+    
+}
