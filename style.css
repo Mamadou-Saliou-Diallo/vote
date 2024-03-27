@@ -82,14 +82,13 @@ button{
 }
 .inpt{
     border: none;
-    border-bottom: 2px solid black;
+    border-bottom: 5px solid #F89617;
     width: 50%;
-    background-color: #009688;
-    color: white;
+    background-color: rgba(68, 63, 63, 0.234);
+    color: black;
     font-weight: bold;
     height: 40px;
     font-size: 30px;
-    opacity: 0.7;
 }
 .h3-inscription{
     font-weight: bold;
@@ -230,7 +229,7 @@ select{
         border: none;
         border-bottom: 2px solid black;
         width: 100%;
-        background-color: #009688;
+        /* background-color: #009688; */
         color: white;
         font-weight: bold;
         height: 40px;
